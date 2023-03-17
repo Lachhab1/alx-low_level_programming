@@ -5,14 +5,18 @@
  *
  * Return: Always 0 (Succes)
  */
+
 int main(void)
 {
-	char c = 'z';
+	/* asci of 0 is 48 */
+	int n = 48;
 
-	while (c >= 'a')
+	while (n <= 102)
 	{
-		putchar(c);
-		c--;
+		putchar(n);
+		if (n == 57)
+			n += 39;
+		n++;
 	}
 	putchar('\n');
 
