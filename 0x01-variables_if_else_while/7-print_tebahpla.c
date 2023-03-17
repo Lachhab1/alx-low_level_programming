@@ -18,5 +18,7 @@ int main(void)
 			n += 39;
 		n++;
 	}
+	putchar('\n');
+
 	return (0);
 }
