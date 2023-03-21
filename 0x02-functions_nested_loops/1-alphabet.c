@@ -2,10 +2,7 @@
 
 /**
  * print_alphapet - print caracteres just sitting one by one
- *
- * Description: print alphapet using _putchar
- *
- * Return: Always 0.
+ * 				using the function _putchar
  */
 
 void print_alphabet(void)
