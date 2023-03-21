@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * Description: print alphapet using _putchar
+ *
  * Return: Always 0.
  */
 
