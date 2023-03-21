@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphapet - print caracteres just sitting one by one
- * 				using the function _putchar
+ * print_alphabet - print caracteres just sitting one by one
+ *				using the function _putchar
  */
 
 void print_alphabet(void)
