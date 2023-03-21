@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphapet - print caracteres just sitting one by one
  *
  * Description: print alphapet using _putchar
  *
