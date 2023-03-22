@@ -18,13 +18,13 @@ int print_sign(int n)
 
 		return (1);
 	}
-	if (n < 0)
+	else if (n < 0)
 	{
 		_putchar(45 + 0);
 
 		return (-1);
 	}
-	if (n == 0)
+	else
 	{
 		_putchar(48 + 0);
 
