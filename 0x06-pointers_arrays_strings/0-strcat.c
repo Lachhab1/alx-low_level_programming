@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat: concatenate the second to
+ * _strcat - concatenate the second to
  *		the first
  * @src: the chaine we want to concat with
  * @dest: the chaine we get after
