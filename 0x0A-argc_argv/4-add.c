@@ -66,7 +66,9 @@ int main(int argc, char **argv)
 				return (1);
 			}
 		}
-		sum += _atoi(argv[i]);
+		if (_atoi(argv[i] > 0)
+			sum += _atoi(argv[i]);
 	}
 	printf("%d\n", sum);
+	return (0);
 }
