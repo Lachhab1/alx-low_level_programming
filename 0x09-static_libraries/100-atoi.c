@@ -5,7 +5,7 @@
  * @s: wewe
  * Return: Pointer to char
  */
-int *_atoi(char *s)
+int _atoi(char *s)
 {
-	return (s);
+	return (0);
 }

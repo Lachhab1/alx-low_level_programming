@@ -5,8 +5,7 @@
  * @c: wewe
  * Return: Pointer to char
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	return (0);
 }
-
