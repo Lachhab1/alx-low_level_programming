@@ -54,7 +54,7 @@ int _atoi(char *s)
 
 int main(int argc, char **argv)
 {
-	int i, j, sum = 0;
+	int i, j, sum = 0, num;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -66,8 +66,10 @@ int main(int argc, char **argv)
 				return (1);
 			}
 		}
-		if (_atoi(argv[i] > 0)
+		if ( _atoi(argv[i]) > 0)
+		{
 			sum += _atoi(argv[i]);
+		}
 	}
 	printf("%d\n", sum);
 	return (0);
