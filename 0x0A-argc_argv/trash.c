@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -47,17 +46,15 @@ int _atoi(char *s)
 }
 
 /**
- * main - adds two positive number
- * @argc: number of arguments
- * @argv: array of arguents
- *
- * Return: 0 (Success), or 1 (Success)
+ * main - Entry point
+ * @argc: count of argument
+ * @argv: list of argument
+ * Return: re 1 if the result ar irrone
  */
-int main(int argc, char *argv[])
-{
-	int sum, num, i, j, k;
 
-	sum = 0;
+int main(int argc, char **argv)
+{
+	int i, j, sum = 0, num;
 
 	for (i = 1; i < argc; i++)
 	{
@@ -65,21 +62,15 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] > '9' || argv[i][j] < '0')
 			{
-				puts("Error");
+				printf("Error\n");
 				return (1);
 			}
 		}
-	}
-
-	for (k = 1; k < argc; k++)
-	{
-		num = _atoi(argv[k]);
-		if (num >= 0)
+		if ( _atoi(argv[i]) > 0)
 		{
-			sum += num;
+			sum += _atoi(argv[i]);
 		}
 	}
-
 	printf("%d\n", sum);
 	return (0);
 }
