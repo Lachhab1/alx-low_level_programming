@@ -6,7 +6,7 @@
 void print_all(const char * const format, ...)
 {
 	unsigned int i = 0;
-	short int flag;
+	int flag;
 	va_list listArg;
 	char *str;
 
@@ -37,7 +37,7 @@ void print_all(const char * const format, ...)
 				flag = 1;
 				break;
 			default:
-				flag = 0
+				flag = 0;
 				break;
 		}
 		if (format[i + 1] != '\0' && flag)
