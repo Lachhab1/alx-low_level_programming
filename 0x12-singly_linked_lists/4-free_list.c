@@ -2,7 +2,7 @@
 
 /**
  * free_list - free the alocated res
- * @h: the head of the list
+ * @head: the head of the list
  */
 
 void free_list(list_t *head)
