@@ -7,6 +7,7 @@
  */
 size_t print_list(const list_t *h)
 {
+	size_t n = 0;
 	list_t cop = NULL;
 
 	cop = h;
@@ -16,6 +17,7 @@ size_t print_list(const list_t *h)
 			printf("[0] (nil)");
 		else
 			printf("[%u] %s\n", cop->len, cop->str);
+		n++;
 		cop = cop->next;
 	}
 	return (n);
