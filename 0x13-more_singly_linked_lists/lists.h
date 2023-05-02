@@ -1,11 +1,10 @@
-#ifndef LIST_H
-#define LIST_H
+#ifndef LISTINT_H
+#define LISTINT_H
 
 #include <stdlib.h>
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdio.h>
-#include <string.h>
 
 /**
  * struct listint_s - singly linked list
@@ -13,6 +12,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * 
  */
 typedef struct listint_s
 {
@@ -25,8 +25,4 @@ int _putchar(char c);
 
 /* linked list functions */
 size_t print_listint(const listint_t *h);
-size_t listint_len(const list_t *h);
-list_t *add_node(list_t **head, const char *str);
-list_t *add_node_end(list_t **head, const char *str);
-void free_list(list_t *head);
 #endif
